@@ -93,9 +93,9 @@ return [
     */
 
     'options' => [
-        'application' => env('APP_NAME', 'Laravel'),
-        'repository' => 'git@github.com:ben182/core-5.8.git',
-        'php_fpm_service' => 'php7.3-fpm',
+        'application'         => env('APP_NAME', 'Laravel'),
+        'repository'          => 'git@github.com:ben182/core-5.8.git',
+        'php_fpm_service'     => 'php7.3-fpm',
         'clearCachesCommands' => [
             'cache:clear',
             'config:clear',
